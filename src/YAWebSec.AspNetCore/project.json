@@ -1,0 +1,21 @@
+{
+  "authors": [ "Stefan Ossendorf" ],
+  "projectUrl": "http://www.example.org",
+  "licenseUrl": "",
+  "tags": [ "Web Security", "ASP.Net Core Integration" ],
+  "version": "0.0.1",
+  "description": "YAWebSec ASP.Net Core Integration",
+  "frameworks": {
+    "netstandard1.5": {
+      "imports": [ "dnxcore50" ]
+    }
+  },
+  "dependencies": {
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
+    "YAWebSec.Core": "0.0.1"
+  },
+  "compilationOptions": {
+    "xmlDoc": true
+  }
+}

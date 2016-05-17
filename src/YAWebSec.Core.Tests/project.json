@@ -1,0 +1,26 @@
+{
+  "description": "YAWebSec.Core.Tests Class Library",
+  "version": "1.0.0-*",
+  "authors": [ "Stefan Ossendorf" ],
+  "testRunner": "xunit",
+  "dependencies": {
+    "xunit": "2.1.0",
+    "dotnet-test-xunit": "1.0.0-rc2-build10015",
+    "YAWebSec.Core": "0.0.1",
+    "FluentAssertions": "4.6.1"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0-rc2-3002702"
+        }
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

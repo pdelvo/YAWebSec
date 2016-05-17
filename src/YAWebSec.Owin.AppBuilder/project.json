@@ -1,0 +1,20 @@
+{
+  "version": "0.0.1",
+  "description": "YAWebSec.Owin.AppBuilder Class Library",
+  "authors": [ "Stefan Ossendorf" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "net45": { },
+    "net46": { }
+  },
+  "dependencies": {
+    "Owin": "1.0.0",
+    "YAWebSec.Core": "0.0.1",
+    "YAWebSec.Owin": "0.0.1"
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  }
+}

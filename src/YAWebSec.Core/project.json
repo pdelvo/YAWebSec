@@ -1,0 +1,22 @@
+{
+  "packOptions": {
+    "projectUrl": "http://www.example.org",
+    "licenseUrl": "",
+    "tags": [ "Web Security" ]
+  },
+  "authors": [ "Stefan Ossendorf" ],
+  "version": "0.0.1",
+  "description": "YAWebSec.Core Class Library",
+
+  "frameworks": {
+    "netstandard1.1": {
+      "imports": [ "dnxcore50", "portable-net45+win8" ]
+    }
+  },
+  "dependencies": {
+    "NETStandard.Library": "1.1.0-rc2-24027"
+  },
+  "compilationOptions": {
+    "xmlDoc": true
+  }
+}
